@@ -11,7 +11,6 @@ for x in input_txt:
     levels.append(level)
 
 
-# part 2 evaluation
 def calculate_diff(level: list) -> list:
     i, j = 0, 1
     diffs = []
